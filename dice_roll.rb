@@ -4,5 +4,5 @@
 
 def roll
  toss = Random.new
- toss.rand(1...7).to_i
+ toss.rand(1...7)
 end
