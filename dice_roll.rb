@@ -3,5 +3,6 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  return toss = rand(1...7).to_i
+ toss = Random.new
+ toss.rand(1...7).to_i
 end
